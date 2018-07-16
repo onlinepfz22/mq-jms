@@ -54,8 +54,6 @@ public class MessageProducer {
             Constants.AUTHENTICATION_USERNAME_ADMIN,
             Constants.AUTHENTICATION_PASSWORD_ADMIN, am_url);
 
-
-
         try {
             //createConnection()方法已经创建一个connection连接并通过TcpTransport中的doStart()方法，进而调用connect方法完成socket连接，连接根据url指定连接协议
             //进行连接
