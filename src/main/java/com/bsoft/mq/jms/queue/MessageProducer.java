@@ -45,7 +45,7 @@ import javax.jms.*;
  *ActiveMQSouceAnalysis
  * */
 public class MessageProducer {
-
+    private String description = "消息生产者";
     private final static String am_url = "tcp://localhost:61616";
     private final static String queueName = "jms-queue-model";
 
